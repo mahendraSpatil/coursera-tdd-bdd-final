@@ -135,3 +135,4 @@ Scenario: Search by name
     And I should not see "Shoes" in the results
     And I should not see "Big Mac" in the results
     And I should not see "Sheets" in the results
+    And I should see "A red fedora" in the "Description" field
